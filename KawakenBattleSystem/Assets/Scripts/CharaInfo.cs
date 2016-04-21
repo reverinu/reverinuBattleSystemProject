@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class CharaInfo : MonoBehaviour {
@@ -9,8 +10,6 @@ public class CharaInfo : MonoBehaviour {
     int charaLv;
     [SerializeField][Header("キャラネーム")]
     private string _charaName;
-    [SerializeField][Header("キャラ画像")]
-    private Image _charaImage;
     public enum CHARAJOB
     {
         KNIGHT,

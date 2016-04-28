@@ -10,6 +10,8 @@ public class CharaInfo : MonoBehaviour {
     int charaLv;
     [SerializeField][Header("キャラネーム")]
     private string _charaName;
+    
+
     public enum CHARAJOB
     {
         KNIGHT,
@@ -35,21 +37,13 @@ public class CharaInfo : MonoBehaviour {
     [Header("魔力")]
     public int mp;
     
-    public enum SKILL
-    {
-        FIRE,
-        MEGAFIRE
-    }
+    
     [Header("所持スキルリスト")]
-    public List<SKILL> _skillList = new List<SKILL>();
+    public List<GameObject> _skillList = new List<GameObject>();
 
-    public enum ITEM
-    {
-        PORTION,
-        MEGAPORTION
-    }
+    
     [Header("所持アイテムリスト")]
-    public List<ITEM> _itemList = new List<ITEM>();
+    public List<GameObject> _itemList = new List<GameObject>();
 
 
 }

@@ -5,14 +5,13 @@ using System.Collections;
 *    ここにはスキル情報が格納されている。ActionManagerで相手もしくは自身を対象とし、スキルが発動される。
 */
 public class SkillInfo : MonoBehaviour {
-    /*
-    TODO: ステートをenumにしておく
-    */
-
-    [SerializeField][Header("与えるダメージ")]
+    
+    [SerializeField][Header("スキル説明文")]// マイナスだと回復する
+    private string _skillInfoText;
+    [SerializeField][Header("与えるダメージ")]// マイナスだと回復する
     private int _damagedPoint;
     [SerializeField][Header("与えるステート")]
-    private int _hasState;
+    private GameObject _hasState;
     private enum RANGE
     {
         MY,

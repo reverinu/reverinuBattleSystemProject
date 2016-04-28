@@ -3,13 +3,11 @@ using System.Collections;
 
 public class StateInfo : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	/*
+    * 効果持続ターン数
+    * 上昇下降
+    * 効果発動タイミング
+    * 受けるダメージ
+    * 行動可能かどうか
+    */
 }

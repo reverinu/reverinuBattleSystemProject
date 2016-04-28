@@ -6,6 +6,8 @@ using System.Collections;
 */
 public class SkillInfo : MonoBehaviour {
     
+    [SerializeField][Header("スキル名")]
+    private string _skillNameText;
     [SerializeField][Header("スキル説明文")]// マイナスだと回復する
     private string _skillInfoText;
     [SerializeField][Header("与えるダメージ")]// マイナスだと回復する

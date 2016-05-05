@@ -14,4 +14,6 @@ public class BattleManager : MonoBehaviour {
 	void Update () {
         charaInfo.atk = 3;
 	}
+
+
 }

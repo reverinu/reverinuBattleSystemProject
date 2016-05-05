@@ -2,6 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/*
+*
+* ステートを保持するスクリプト
+*
+*/
 public class StateInfo : MonoBehaviour {
     
     [SerializeField][Header("ステート名")]

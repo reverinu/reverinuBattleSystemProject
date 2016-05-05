@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
+/*
+*ラウンドを管理するスクリプト
+*/
+
 
 public class RoundManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    [SerializeField][Header("ラウンド")]
+    private int round;
+
+    void Start()
+    {
+        round = 0;
+    }
+
+    public void RoundCount()
+    {
+        round++;
+    }
 }

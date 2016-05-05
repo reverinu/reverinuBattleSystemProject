@@ -4,6 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/*
+*
+* キャラクター情報を保持するスクリプト
+*
+*/
 public class CharaInfo : MonoBehaviour {
 
     [SerializeField][Header("キャラレベル")]

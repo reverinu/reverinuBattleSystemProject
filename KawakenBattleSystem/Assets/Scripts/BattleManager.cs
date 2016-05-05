@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+*
+* バトルの管理をするスクリプト
+*
+*/
 public class BattleManager : MonoBehaviour {
 
     public CharaInfo charaInfo;
